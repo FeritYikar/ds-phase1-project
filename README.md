@@ -2,26 +2,42 @@
 
 
 
-###### Hoang's Notes
-Prompt   
-Microsoft wants to create Original Video content. New Movie studio
-    -Explore what types of films are doing the best in current box office
-    -Actionable insight recommendations to decide what film to create
-    -3 recommendations
-    -3 deliverables
-        o	Non technical presentation
-        o	Jupyter notebook
-        o	Github repository
-        
-Core data 
-    •imdb.title.basics
-    •imdb.title.ratings
-    •bom.movie_gross
+1. README.md
+A file called README.md at the root of the repository directory, written in Markdown; this is what is rendered when someone visits the link to your repository in the browser
+This file contains these sections:
 
--After cleaning up bom.movie_gross data, and making a total gross column, I merged it with the titles and ratings files. There seems to be some problem merging where as the top grossing film was dropped? Have to re-visist. Made some quick graphs comparing categories to gross income. 
-    Genre label ran into some problems due to how its organized in the table. 
-    Year does not look like there is any relationship on a scatter plot
-    num_votes looks like its positively correlated
-    average rating looks like it has an affect as well.
-    
+Overview
+Business Understanding
+Include stakeholder and key business questions
+Data Understanding and Analysis
+Source of data
+Description of data
+Three visualizations (the same visualizations presented in the slides and notebook)
+Conclusion
+Summary of conclusions including three relevant findings
+
+
+
+2. GitHub Repository
+This element assesses the understandability of the GitHub repository that houses a student’s project. Understandability is evaluated based on the README, folder structure, and commit history of the repository.
+ 
+The README should provide an overview of the project and repository structure
+Files and folders should be organized to make it easy to find any necessary files
+Commit history should reflect the project’s development history
+
+Complete
+Repository includes most items from the checklist (4 or more out of 7)
+Incomplete
+Repository does not include most items from the checklist (0-3 out of 7)
+
+GitHub Repository: Project repository demonstrates professional “best practices”:
+README.md includes concise summary of project with all data science steps
+README.md links to presentation and sources
+README.md includes instructions for navigating the repository
+Files and folders are named briefly and descriptively, with consistent naming conventions
+Files and folders are organized logically and consistently
+Commit history includes regular commits with informative commit messages
+Large or sensitive files are listed in .gitignore and not pushed to GitHub
+ 
+
 
