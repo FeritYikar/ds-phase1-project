@@ -17,16 +17,11 @@ In this scenario, Microsoft is creating a new movie studio and needs recommendat
 
 Our Data sets are derived from the following public databases:
 
-[IMDB](https://www.imdb.com/)
-
-[The Box Office Mojo](https://www.boxofficemojo.com/)
-
-[Rotten Tomatoes](https://www.rottentomatoes.com/)
-
-[The Movie DB](https://www.themoviedb.org/)
-
-[The Numbers](https://www.the-numbers.com/)
-
+[IMDB](https://www.imdb.com/) <br>
+[The Box Office Mojo](https://www.boxofficemojo.com/) <br>
+[Rotten Tomatoes](https://www.rottentomatoes.com/) <br>
+[The Movie DB](https://www.themoviedb.org/) <br>
+[The Numbers](https://www.the-numbers.com/) <br>
 [Kaggle](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 ## Methods
@@ -41,12 +36,12 @@ Our Key recommendations are the following
 - **Movies are worthwhile investments at a 216% return on investment**
 - **Musical, Horror, and Mystery are the 3 genres we recommend after assessing profiability and barrier of entry**
 - **Recommended release date for the genre:**
-        Musical: May, Nov,  and December
-        Horror:  Apr, Jul and Oct
-        Mystery:  Aug and May
+        \t Musical: May, Nov,  and December
+        \t Horror:  Apr, Jul and Oct
+        \t Mystery:  Aug and May
 - **Recommended director for the genre:**
-        Musical: Damien Chazzelle
-        Horror: William Brent Bell
+        >Musical: Damien Chazzelle
+        >Horror: William Brent Bell
         Mystery: John Leonetti
 
 ## Future Recommendations
