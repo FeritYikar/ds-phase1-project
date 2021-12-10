@@ -35,21 +35,22 @@ Our methods consisted of explorative data analysis techniques using panda data f
 Our Key recommendations are the following
 - **Movies are worthwhile investments at a 216% return on investment**
 - **Musical, Horror, and Mystery are the 3 genres we recommend after assessing profiability and barrier of entry**
-- **Recommended release date for the genre:**
-        \t Musical: May, Nov,  and December
-        \t Horror:  Apr, Jul and Oct
-        \t Mystery:  Aug and May
-- **Recommended director for the genre:**
-        >Musical: Damien Chazzelle
-        >Horror: William Brent Bell
-        Mystery: John Leonetti
+- **Recommended release date for the genre:**<br>
+       * Musical: May, Nov,  and December<br>
+       * Horror:  Apr, Jul and Oct<br>
+       * Mystery:  Aug and May<br>
+- **Recommended director for the genre:**<br>
+       * Musical: Damien Chazzelle<br>
+       * Horror: William Brent Bell<br>
+       /t Mystery: John Leonetti
 
 ## Future Recommendations
 
-We further recommend looking into socia media engagement for a success of a movie.  While we felt this aspect was important, public data was limited. We used facebook likes as our metric which showed a very weak correlation with our specific genre recommendation. With this we can infer that Facebook may not be the best place to market those musical, horror, or mystery films. Other social media platforms may be worth exploring in relation to a success of a movie.  
+We further recommend looking into socia media engagement as a metric for success success of a movie.  While we felt this aspect was important, public data was limited. We used facebook likes as our metric which showed a very weak correlation with our specific genre recommendation. With this we can infer that Facebook may not be the best place to market those musical, horror, or mystery films. Other social media platforms may be worth exploring in relation to a success of a movie.  
 
 
-To see the full analysis you can visit [Jupyter Notebook](./Master%20Notebook.ipynb) and presentation here (placeholder)
+To see the full analysis you can visit our [Jupyter Notebook](./Master%20Notebook.ipynb)<br>
+You can also find our full slide presentations [here](./Phase-1 Project.pdf) 
 
 
 
