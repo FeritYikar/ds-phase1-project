@@ -16,10 +16,15 @@ In this scenario, Microsoft is creating a new movie studio and needs recommendat
 Our Data sets are derived from the following public databases:
 
 [IMDB](https://www.imdb.com/)
+
 [The Box Office Mojo](https://www.boxofficemojo.com/)
+
 [Rotten Tomatoes](https://www.rottentomatoes.com/)
+
 [The Movie DB](https://www.themoviedb.org/)
+
 [The Numbers](https://www.the-numbers.com/)
+
 [Kaggle](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 ## Methods
@@ -54,6 +59,7 @@ To see the full analysis you can visit [Jupyter Notebook](./Master%20Notebook.ip
 
 
 
+# PAGE BREAK DELETE UNDER AFTER DONE
 
 1. README.md
 A file called README.md at the root of the repository directory, written in Markdown; this is what is rendered when someone visits the link to your repository in the browser
