@@ -2,6 +2,8 @@
 
 # Lights, Camera, Analysis -  Movie Data Analysis Phase 1 Project  
 
+**Authors**: [Abass Ibrahim ](https://www.linkedin.com/in/abass-ibrahim/), [Anna Chantharasouk](https://www.linkedin.com/in/dchantharasouk/), [Ferit Yikar](https://www.linkedin.com/in/ferityikar/), [Hoang Nguyen](mailto:hvnguyen90@gmail.com), [Ross McKim](https://www.linkedin.com/in/ross-mckim/)
+
 
 ## Overview
 This project aims to use exploratory data analysis on available movie data to make movie recommendations for key stakeholders. 
@@ -36,13 +38,13 @@ Our methods consisted of explorative data analysis techniques using panda data f
 
 ## Conclusion
 Our Key recommendations are the following
-- **Movies are worthwhile investments at a 216% return on investment
-- **Musical, Horror, and Mystery are the 3 genres we recommend after assessing profiability and barrier of entry
-- **Recommended release date for the genre:
+- **Movies are worthwhile investments at a 216% return on investment**
+- **Musical, Horror, and Mystery are the 3 genres we recommend after assessing profiability and barrier of entry**
+- **Recommended release date for the genre:**
         Musical: May, Nov,  and December
         Horror:  Apr, Jul and Oct
         Mystery:  Aug and May
-- **Recommended director for the genre:
+- **Recommended director for the genre:**
         Musical: Damien Chazzelle
         Horror: William Brent Bell
         Mystery: John Leonetti
