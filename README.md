@@ -17,16 +17,11 @@ In this scenario, Microsoft is creating a new movie studio and needs recommendat
 
 Our Data sets are derived from the following public databases:
 
-[IMDB](https://www.imdb.com/)
-
-[The Box Office Mojo](https://www.boxofficemojo.com/)
-
-[Rotten Tomatoes](https://www.rottentomatoes.com/)
-
-[The Movie DB](https://www.themoviedb.org/)
-
-[The Numbers](https://www.the-numbers.com/)
-
+[IMDB](https://www.imdb.com/) <br>
+[The Box Office Mojo](https://www.boxofficemojo.com/) <br>
+[Rotten Tomatoes](https://www.rottentomatoes.com/) <br>
+[The Movie DB](https://www.themoviedb.org/) <br>
+[The Numbers](https://www.the-numbers.com/) <br>
 [Kaggle](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 ## Methods
@@ -34,71 +29,71 @@ Our methods consisted of explorative data analysis techniques using panda data f
 
 ## Results
 
+We first wanted to see if it was worth going into the industry.Examing the data set we saw a 216% return on investment on average, not including marketing costs and future sales. <br>
+We see a year-on-year profit growth and an increasing cost in budget.
 
 
-## Conclusion
+![moviecost](./images/movies_entry.png)<br>
+<br>
+
+We examined the profits and weighed that against competition (no. of studios) in each genre and based our recommendations off of Musical, Horror, and Mystery.
+
+![moviegenres](./images/Movie_genres.png)<br>
+<br>
+We then saw the months where each movie genre is the most profitable.
+
+![movietimes](./images/seasons.png)<br> <br>
+
+Next we examined ratings and saw that after a rating of 6, movies become much more profitable.
+
+![movieratings](./images/Ratings.png) <br><br>
+We wanted to see what affected a good rating score so we examined budget. Budget seems to have a very little effect to no effect at all. 
+
+![moviebudgetratinggenre](./images/Budget_rating_genre.png)<br><br>
+
+Knowing this, we then explored directors data. We found the most profitable directors in each category who scored above a 6 and made our director recommendation off of that.<br>
+- **Recommended director for the genre:**<br>
+       * Musical: Damien Chazzelle, Bryan Singer, Elizabeth Banks, Gregory Jacobs, Bill Condon <br>
+       * Horror: William Brent Bell, Tod Williams, Daniel Stamm, James DeMonaco, Jeff Wadlow<br>
+       * Mystery: John Leonetti, Ariel Schulman, Henry Joost, Jordan Peele, David Sandberg
+<br><br><br>
+
+We wanted to see other factors that may affect the succes of a movie and know that social media engagement is heavily involved with our every day life. We found public data on facebook likes and examined the data. 
+![facebooklikes](./images/Facebooklikes.png)
+
+## Conclusion and Recommendations
 Our Key recommendations are the following
 - **Movies are worthwhile investments at a 216% return on investment**
-- **Musical, Horror, and Mystery are the 3 genres we recommend after assessing profiability and barrier of entry**
-- **Recommended release date for the genre:**
-        Musical: May, Nov,  and December
-        Horror:  Apr, Jul and Oct
-        Mystery:  Aug and May
-- **Recommended director for the genre:**
-        Musical: Damien Chazzelle
-        Horror: William Brent Bell
-        Mystery: John Leonetti
+- **Musical, Horror, and Mystery** are the 3 genres we recommend after assessing profiability and barrier of entry
+- **Recommended release date for the genre:**<br>
+       * Musical: May, Nov,  and December<br>
+       * Horror:  Apr, Jul and Oct<br>
+       * Mystery:  Aug and May<br>
+- **Recommended director for the genre:**<br>
+       * Musical: Damien Chazzelle<br>
+       * Horror: William Brent Bell<br>
+       * Mystery: John Leonetti
 
-## Future Recommendations
+## Future Directions
 
-We further recommend looking into socia media engagement for a success of a movie.  While we felt this aspect was important, public data was limited. We used facebook likes as our metric which showed a very weak correlation with our specific genre recommendation. With this we can infer that Facebook may not be the best place to market those musical, horror, or mystery films. Other social media platforms may be worth exploring in relation to a success of a movie.  
-
-
-To see the full analysis you can visit [Jupyter Notebook](./Master%20Notebook.ipynb) and presentation here (placeholder)
+We further recommend looking into socia media engagement as a metric for that may affect the success of a movie.  While we hypothesize, social media engagement to be important, our results showed that there was little correlation for our genres of interests. With this we can infer that Facebook may not be the best place to market those musical, horror, or mystery films. We recommend exploring more Facebook data as well as other social media platforms relationship to movie success as a area of future interests. 
 
 
+## For More Information
 
+To see the full analysis you can visit our [Jupyter Notebook](./Master%20Notebook.ipynb)<br>
+You can also find our full slide presentations [here](./Phase-1%20Project.pdf)
 
+## Repository Structure
 
+```
+├── data
+├── images
+├── Relational Schema.png
+├── Master Notebook.ipynb
+├── Phase-1 Project.pdf
+└── README.md
+```
 
-# PAGE BREAK DELETE UNDER AFTER DONE
-
-1. README.md
-A file called README.md at the root of the repository directory, written in Markdown; this is what is rendered when someone visits the link to your repository in the browser
-This file contains these sections:
-
-Overview
-Business Understanding
-Include stakeholder and key business questions
-Data Understanding and Analysis
-Source of data
-Description of data
-Three visualizations (the same visualizations presented in the slides and notebook)
-Conclusion
-Summary of conclusions including three relevant findings
-
-
-
-2. GitHub Repository
-This element assesses the understandability of the GitHub repository that houses a student’s project. Understandability is evaluated based on the README, folder structure, and commit history of the repository.
- 
-The README should provide an overview of the project and repository structure
-Files and folders should be organized to make it easy to find any necessary files
-Commit history should reflect the project’s development history
-
-Complete
-Repository includes most items from the checklist (4 or more out of 7)
-Incomplete
-Repository does not include most items from the checklist (0-3 out of 7)
-
-GitHub Repository: Project repository demonstrates professional “best practices”:
-README.md includes concise summary of project with all data science steps
-README.md links to presentation and sources
-README.md includes instructions for navigating the repository
-Files and folders are named briefly and descriptively, with consistent naming conventions
-Files and folders are organized logically and consistently
-Commit history includes regular commits with informative commit messages
-Large or sensitive files are listed in .gitignore and not pushed to GitHub
- 
 
 
